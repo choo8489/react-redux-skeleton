@@ -4,7 +4,7 @@ import './About.css';
 
 class About extends React.Component {
   render() {
-    const {className, ...props} = this.props;
+    const {className, props} = this.props;
     return (
       <div className={cxn('About', className)} {...props}>
         <h1>
